@@ -56,6 +56,7 @@ from pyspark.sql import SQLContext
 sqlContext = SQLContext(sc)
 
 base_df = sqlContext.read.text('access_log_Jul95')
+#base_df = sqlContext.read.text('access_log_Aug95')
 
 
 split_df = base_df.select(regexp_extract('value', r'^([^\s]+\s)', 1).alias('host'),
