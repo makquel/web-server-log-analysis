@@ -32,3 +32,9 @@ A diferença entre os Frameworks Spark e Hadoop MapReduce, está, basicamente, n
 (Fonte: https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-SparkContext.html)
 
 ### Explique com suas palavras o que é Resilient Distributed Datasets(RDD)
+RDD é uma das APIs disponíveis para o Spark que pode ser definido como um objeto abstrato para representar dados. São tolerantes a falhas, possuem tipo predefinido (data type) e estão baseados na API de Scala.
+(Fonte: https://www.datacamp.com/community/tutorials/apache-spark-python)
+
+### GroupByKey é menos eficiente que reduceByKey em grandes dataset Por quê?
+O reduceByKey é mais eficiente sobre o uso de de largura de banda numa e mais rapida do que do que o reduceByKey. Isto baseia-se no fato que o reduceByKey realiza agrupa os dados antes de serem enviados para outros executores, já o reduceByKey envia dados desagrupados para os outros executores.
+
