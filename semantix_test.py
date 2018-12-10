@@ -1,8 +1,12 @@
-"""semantix_test.py
+"""
+Created on Dec 10, 2018
+
+@author: makquel
+Script de análise de um Web Server log para teste da Semantix
+
+Foram utilizadas as seguintes referências para o desenvolvimento:
 http://adataanalyst.com/spark/web-server-log-analysis-spark/
-
 https://spark.apache.org/docs/latest/quick-start.html#where-to-go-from-here
-
 http://spark.apache.org/downloads.html
 https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f
 """
